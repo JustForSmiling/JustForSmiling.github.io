@@ -1,0 +1,959 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=2">
+<meta name="theme-color" content="#222">
+<meta name="generator" content="Hexo 4.0.0">
+  <link rel="apple-touch-icon" sizes="180x180" href="/images/apple-touch-icon-next.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon-32x32-next.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon-16x16-next.png">
+  <link rel="mask-icon" href="/images/logo.svg" color="#222">
+
+<link rel="stylesheet" href="/css/main.css">
+
+
+<link rel="stylesheet" href="/lib/font-awesome/css/font-awesome.min.css">
+
+
+<script id="hexo-configurations">
+  var NexT = window.NexT || {};
+  var CONFIG = {
+    root: '/',
+    scheme: 'Gemini',
+    version: '7.4.3',
+    exturl: false,
+    sidebar: {"position":"left","display":"post","offset":12,"onmobile":false},
+    copycode: {"enable":false,"show_result":false,"style":null},
+    back2top: {"enable":true,"sidebar":true,"scrollpercent":true},
+    bookmark: {"enable":false,"color":"#222","save":"auto"},
+    fancybox: false,
+    mediumzoom: false,
+    lazyload: false,
+    pangu: false,
+    algolia: {
+      appID: '',
+      apiKey: '',
+      indexName: '',
+      hits: {"per_page":10},
+      labels: {"input_placeholder":"Search for Posts","hits_empty":"We didn't find any results for the search: ${query}","hits_stats":"${hits} results found in ${time} ms"}
+    },
+    localsearch: {"enable":false,"trigger":"auto","top_n_per_article":1,"unescape":false,"preload":false},
+    path: '',
+    motion: {"enable":true,"async":false,"transition":{"post_block":"fadeIn","post_header":"slideDownIn","post_body":"slideDownIn","coll_header":"slideLeftIn","sidebar":"slideUpIn"}},
+    translation: {
+      copy_button: 'Copy',
+      copy_success: 'Copied',
+      copy_failure: 'Copy failed'
+    },
+    sidebarPadding: 40
+  };
+</script>
+
+  <meta property="og:type" content="website">
+<meta property="og:title" content="Hexo">
+<meta property="og:url" content="http:&#x2F;&#x2F;yoursite.com&#x2F;index.html">
+<meta property="og:site_name" content="Hexo">
+<meta property="og:locale" content="en">
+<meta name="twitter:card" content="summary">
+
+<link rel="canonical" href="http://yoursite.com/">
+
+
+<script id="page-configurations">
+  // https://hexo.io/docs/variables.html
+  CONFIG.page = {
+    sidebar: "",
+    isHome: true,
+    isPost: false,
+    isPage: false,
+    isArchive: false
+  };
+</script>
+
+  <title>Hexo</title>
+  
+
+
+
+
+
+
+  <noscript>
+  <style>
+  .use-motion .brand,
+  .use-motion .menu-item,
+  .sidebar-inner,
+  .use-motion .post-block,
+  .use-motion .pagination,
+  .use-motion .comments,
+  .use-motion .post-header,
+  .use-motion .post-body,
+  .use-motion .collection-header { opacity: initial; }
+
+  .use-motion .site-title,
+  .use-motion .site-subtitle {
+    opacity: initial;
+    top: initial;
+  }
+
+  .use-motion .logo-line-before i { left: initial; }
+  .use-motion .logo-line-after i { right: initial; }
+  </style>
+</noscript>
+
+</head>
+
+<body itemscope itemtype="http://schema.org/WebPage">
+  <div class="container use-motion">
+    <div class="headband"></div>
+
+    <header class="header" itemscope itemtype="http://schema.org/WPHeader">
+      <div class="header-inner"><div class="site-brand-container">
+  <div class="site-meta">
+
+    <div>
+      <a href="/" class="brand" rel="start">
+        <span class="logo-line-before"><i></i></span>
+        <span class="site-title">Hexo</span>
+        <span class="logo-line-after"><i></i></span>
+      </a>
+    </div>
+  </div>
+
+  <div class="site-nav-toggle">
+    <div class="toggle" aria-label="Toggle navigation bar">
+      <span class="toggle-line toggle-line-first"></span>
+      <span class="toggle-line toggle-line-middle"></span>
+      <span class="toggle-line toggle-line-last"></span>
+    </div>
+  </div>
+</div>
+
+
+<nav class="site-nav">
+  
+  <ul id="menu" class="menu">
+        <li class="menu-item menu-item-首页">
+
+    <a href="/" rel="section"><i class="fa fa-fw fa-home"></i>首页</a>
+
+  </li>
+        <li class="menu-item menu-item-分类">
+
+    <a href="/categories/" rel="section"><i class="fa fa-fw fa-th"></i>分类</a>
+
+  </li>
+        <li class="menu-item menu-item-archives">
+
+    <a href="/archives/" rel="section"><i class="fa fa-fw fa-archive"></i>Archives</a>
+
+  </li>
+  </ul>
+
+</nav>
+</div>
+    </header>
+
+    
+
+
+    <main class="main">
+      <div class="main-inner">
+        <div class="content-wrap">
+          
+
+          <div class="content">
+            
+
+  <div class="posts-expand">
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/VUE/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/VUE/" class="post-title-link" itemprop="url">VUE</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:41:23" itemprop="dateCreated datePublished" datetime="2019-11-01T14:41:23+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="VUE"><a href="#VUE" class="headerlink" title="VUE"></a>VUE</h1><h2 id="PC"><a href="#PC" class="headerlink" title="PC"></a>PC</h2><h3 id="1-全局loading-结合element-ui-的实现"><a href="#1-全局loading-结合element-ui-的实现" class="headerlink" title="1.　全局loading(结合element-ui)的实现"></a>1.　全局loading(结合element-ui)的实现</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">import</span> &#123; Loading &#125; <span class="keyword">from</span> <span class="string">'element-ui'</span></span><br><span class="line"><span class="comment">// 定义请求次数(用于判断请求是否已经全部响应)</span></span><br><span class="line"><span class="keyword">let</span> requestCount = <span class="number">0</span>;</span><br><span class="line"><span class="keyword">let</span> loading;</span><br><span class="line"><span class="comment">// (客户端请求前)显示loading</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">showLoading</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  <span class="keyword">if</span> (requestCount === <span class="number">0</span>) &#123;</span><br><span class="line">    loading = Loading.service(&#123;</span><br><span class="line">      spinner: <span class="string">"mobile-loading"</span>,    <span class="comment">//loading样式类名</span></span><br><span class="line">      background: <span class="string">"rgba(0,0,0,0.8)"</span></span><br><span class="line">    &#125;)</span><br><span class="line">  &#125;</span><br><span class="line">  requestCount++</span><br><span class="line">&#125;</span><br><span class="line"><span class="keyword">let</span> timer;</span><br><span class="line"><span class="comment">// (服务器响应后)尝试隐藏loading</span></span><br><span class="line"><span class="function"><span class="keyword">function</span> <span class="title">tryHideLoading</span>(<span class="params"></span>) </span>&#123;</span><br><span class="line">  requestCount-- </span><br><span class="line">  <span class="comment">//采用setTimeout是为了解决一个请求结束后紧接着有另一请求发起导致loading闪烁的问题</span></span><br><span class="line">  timer = setTimeout(<span class="function"><span class="params">()</span> =&gt;</span> &#123;    </span><br><span class="line">    <span class="keyword">if</span> (requestCount === <span class="number">0</span>) &#123;</span><br><span class="line">      loading.close()</span><br><span class="line">      clearTimeout(timer)</span><br><span class="line">    &#125;</span><br><span class="line">  &#125;)</span><br><span class="line">&#125;</span><br><span class="line">showLoading()tryHideLoading()</span><br></pre></td></tr></table></figure>
+<h2 id="移动端"><a href="#移动端" class="headerlink" title="移动端"></a>移动端</h2><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><h3 id="1-watch监听对象-数组-新旧值相同"><a href="#1-watch监听对象-数组-新旧值相同" class="headerlink" title="1.　watch监听对象/数组(新旧值相同)"></a>1.　watch监听对象/数组(新旧值相同)</h3><p><img src="QQ%E5%9B%BE%E7%89%8720190718161702.png" alt=""></p>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br></pre></td><td class="code"><pre><span class="line">data()&#123;</span><br><span class="line">    <span class="keyword">return</span> &#123;</span><br><span class="line">        processSteps: &#123;</span><br><span class="line">            type: <span class="string">'form'</span>,</span><br><span class="line">            data: [</span><br><span class="line">                &#123;</span><br><span class="line">                    name: <span class="string">'xiaoming'</span>,</span><br><span class="line">                    age: <span class="number">18</span></span><br><span class="line">                &#125;,&#123;</span><br><span class="line">                    name: <span class="string">'xiaohong'</span>,</span><br><span class="line">                    age: <span class="number">18</span></span><br><span class="line">                &#125;</span><br><span class="line">            ]</span><br><span class="line">        &#125;,</span><br><span class="line">        list: []</span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br><span class="line">computed: &#123;</span><br><span class="line">    <span class="comment">//processSteps为实例中实际用到的一个对象, 此处借助另一个变量newProcessSteps来完成监听后的处理操作</span></span><br><span class="line">    newProcessSetps()&#123;</span><br><span class="line">        <span class="keyword">return</span> <span class="built_in">JSON</span>.parse(<span class="built_in">JSON</span>.stringify(<span class="keyword">this</span>.processSteps)))</span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="comment">//数组的处理方式</span></span><br><span class="line">    newList()&#123;</span><br><span class="line">        <span class="keyword">return</span> [...this.list]    <span class="comment">//...扩展运算符返回一个新数组</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;,</span><br><span class="line">watch: &#123;</span><br><span class="line">    newProcessSteps:&#123;</span><br><span class="line">        handler(newVal, oldVal)&#123;</span><br><span class="line">            <span class="built_in">console</span>.log(newVal, oldVal)</span><br><span class="line">            <span class="comment">//比较newVal和olcVal</span></span><br><span class="line">            ...</span><br><span class="line">            ...</span><br><span class="line">        &#125;,</span><br><span class="line">        deep: <span class="literal">true</span></span><br><span class="line">    &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h3 id="2-使用computed时遇到的this指向的问题"><a href="#2-使用computed时遇到的this指向的问题" class="headerlink" title="2.    使用computed时遇到的this指向的问题"></a>2.    使用computed时遇到的this指向的问题</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br></pre></td><td class="code"><pre><span class="line">computed: &#123;</span><br><span class="line">  selected: &#123;</span><br><span class="line">    <span class="keyword">get</span>: () =&gt; &#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="keyword">this</span>);    <span class="comment">//undefined(如果不使用箭头函数, 则可以正常获取到this, 但是get和set中的this是不一样的)</span></span><br><span class="line">    &#125;,</span><br><span class="line">    <span class="keyword">set</span>()&#123;</span><br><span class="line">      <span class="built_in">console</span>.log(<span class="keyword">this</span>);    </span><br><span class="line">    &#125;,</span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+
+
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">computed: &#123;</span><br><span class="line">  selected()&#123;</span><br><span class="line">    <span class="built_in">console</span>.log(<span class="keyword">this</span>);    <span class="comment">//vue实例中的this(正常)</span></span><br><span class="line">  &#125;</span><br><span class="line">&#125;,</span><br></pre></td></tr></table></figure>
+<h3 id="3-利用-computed实现的监听"><a href="#3-利用-computed实现的监听" class="headerlink" title="3.   利用 computed实现的监听"></a>3.   利用 computed实现的监听</h3><ul>
+<li>computed实现的监听并不是深度监听(内存地址没有发生改变的话是监听不到的), 但是可以结合JSON.parse(JSON.stringify(data))的方式实现深度监听(开辟了新的内存), 只不过会产生新的数组/对象</li>
+</ul>
+<h3 id="4-vue项目中引入包-各文件顺序的问题"><a href="#4-vue项目中引入包-各文件顺序的问题" class="headerlink" title="4.    vue项目中引入包/各文件顺序的问题"></a>4.    vue项目中引入包/各文件顺序的问题</h3><ul>
+<li>需要用自己定义的element-ui主题色覆盖公司开发的组件中的element-ui的主题色, 自己定义的样式文件必须在该组件之后引入, 否则相当于组件中的主题色覆盖了自定义的主题色</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/Swiper/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/Swiper/" class="post-title-link" itemprop="url">Swiper</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:39:51" itemprop="dateCreated datePublished" datetime="2019-11-01T14:39:51+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Swiper"><a href="#Swiper" class="headerlink" title="Swiper"></a>Swiper</h1><h2 id="1-PC"><a href="#1-PC" class="headerlink" title="1.    PC"></a>1.    PC</h2><h3 id="vue中使用"><a href="#vue中使用" class="headerlink" title="vue中使用"></a>vue中使用</h3><ul>
+<li>swiper-no-swiping(禁止鼠标拖动切换视图)</li>
+</ul>
+<p>　　PC端使用swiper禁止利用鼠标拖动切换视图(轮播页面)的方法: 在离swiper-slide最近的父级元素上添加’swiper-noswiping’的类名即可. 另: 可给某一swiper-slide单独设置 swiper-no-swiping 类名使该视图内的拖动失效(未测). 另: 该添加类名的方式可能同样适用于移动端(未测)</p>
+<p>　　注: 若不禁用(不添加该类名), 可能导致PC视图内的点击事件无效(遇到过echarts的点击事件无效)</p>
+<h2 id="2-H5"><a href="#2-H5" class="headerlink" title="2.    H5"></a>2.    H5</h2>
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/Element-ui/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/Element-ui/" class="post-title-link" itemprop="url">Element-ui</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:38:11" itemprop="dateCreated datePublished" datetime="2019-11-01T14:38:11+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Element-ui"><a href="#Element-ui" class="headerlink" title="Element-ui"></a>Element-ui</h1><h2 id="1-使用伪元素实现图标效果"><a href="#1-使用伪元素实现图标效果" class="headerlink" title="1.    使用伪元素实现图标效果"></a>1.    使用伪元素实现图标效果</h2><ul>
+<li><p>引用element-ui伪元素的content内容(content: “\E6E1”)时, 显示的图标效果发生倾斜,  使用font-style: normal属性可修正此现象</p>
+</li>
+<li><p>之前</p>
+</li>
+</ul>
+<p><img src="H@MXAEM%29Y%5DE65CB$IP4SB3I.png" alt=""></p>
+<ul>
+<li>之后</li>
+</ul>
+<p><img src="%5D37D~%607_5E4%5BF%5B_%5B~Q6I8%296.png" alt=""></p>
+<h2 id="2-更改下拉框-日期选择器的高度后图标效果"><a href="#2-更改下拉框-日期选择器的高度后图标效果" class="headerlink" title="2.    更改下拉框/日期选择器的高度后图标效果"></a>2.    更改下拉框/日期选择器的高度后图标效果</h2><figure class="highlight css"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br></pre></td><td class="code"><pre><span class="line">.el-input__inner&#123;    //修改高度的同时修改icon的line-height即可</span><br><span class="line">  <span class="selector-tag">height</span>: 28<span class="selector-tag">px</span>;</span><br><span class="line">&#125;</span><br><span class="line"><span class="selector-class">.el-input__icon</span>&#123;</span><br><span class="line">  <span class="attribute">line-height</span>: <span class="number">28px</span>;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/Echarts/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/Echarts/" class="post-title-link" itemprop="url">Echarts</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:37:47" itemprop="dateCreated datePublished" datetime="2019-11-01T14:37:47+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="Echarts"><a href="#Echarts" class="headerlink" title="Echarts"></a>Echarts</h1><h2 id="1-解决坐标轴最后一项标签字体加粗"><a href="#1-解决坐标轴最后一项标签字体加粗" class="headerlink" title="1.    解决坐标轴最后一项标签字体加粗"></a>1.    解决坐标轴最后一项标签字体加粗</h2><ul>
+<li>添加配置项:</li>
+</ul>
+<figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">xAxis: [</span><br><span class="line">  &#123;</span><br><span class="line">    type: <span class="string">'category'</span>,</span><br><span class="line">    axisLabel: &#123;</span><br><span class="line">      borderWidth: <span class="number">0</span>,    <span class="comment">//此配置项可解决该问题</span></span><br><span class="line">    &#125;</span><br><span class="line">  &#125;</span><br><span class="line">],</span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/%E5%85%B6%E4%BB%96/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/%E5%85%B6%E4%BB%96/" class="post-title-link" itemprop="url">其他</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:37:40" itemprop="dateCreated datePublished" datetime="2019-11-01T14:37:40+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><h2 id="1-MD5加密"><a href="#1-MD5加密" class="headerlink" title="1.    MD5加密"></a>1.    MD5加密</h2><h3 id="特点"><a href="#特点" class="headerlink" title="*     特点"></a>*     特点</h3><pre><code>1\. 不可逆
+
+2\. 等长\(32\)
+
+3\. 丢失信息</code></pre><ul>
+<li>注册和登录的密码在存储到数据库时, 一版保存的是密码加密后的密文, <strong>Node.js中拥有md5内置模块</strong></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/NodeJS/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/NodeJS/" class="post-title-link" itemprop="url">NodeJS</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:37:19" itemprop="dateCreated datePublished" datetime="2019-11-01T14:37:19+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="NodeJS"><a href="#NodeJS" class="headerlink" title="NodeJS"></a>NodeJS</h1><h2 id="1-fs注意细节"><a href="#1-fs注意细节" class="headerlink" title="1.    fs注意细节"></a>1.    fs注意细节</h2><ol>
+<li>涉及到文件操作(包括但不限于读取, 写入, 上传, 下载)时(可使用Node的内置fs模块, formidable, node-xlsx), 文件路径是相对于主文件(app.js/index.js)的, 而不是相对于当前文件</li>
+</ol>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/MongoDB/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/MongoDB/" class="post-title-link" itemprop="url">MongoDB</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:36:26" itemprop="dateCreated datePublished" datetime="2019-11-01T14:36:26+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="MongoDB"><a href="#MongoDB" class="headerlink" title="MongoDB"></a>MongoDB</h1><h2 id="1-前言"><a href="#1-前言" class="headerlink" title="1.    前言"></a>1.    前言</h2><ol>
+<li>安装指导参考mongodb官网(DRIVER选择Node.js)</li>
+<li>使用命令时, 注意区分当前命令行窗口处于什么环境(默认环境/REPL环境: read, eval, print, loop). mongo命令应该是在默认环境(非REPL环境)下使用, 操作数据库及各种数据应该是在REPL环境</li>
+</ol>
+<h2 id="2-TIPS"><a href="#2-TIPS" class="headerlink" title="2.    TIPS"></a>2.    TIPS</h2><ol>
+<li>欲使用<code>mongo</code>命令进入REPL环境之前, 需要使用<code>mongod --dbpath 路径</code>(一个自定义的数据库存放路径)进行所谓的’开机’操作, 否则会连接不上数据库</li>
+</ol>
+<h2 id="3-Mongoose"><a href="#3-Mongoose" class="headerlink" title="3.    Mongoose"></a>3.    Mongoose</h2><ul>
+<li>静态方法操作集合, 动态方法操作文档(schema)</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/NPM/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/NPM/" class="post-title-link" itemprop="url">NPM</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:35:36" itemprop="dateCreated datePublished" datetime="2019-11-01T14:35:36+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="NPM"><a href="#NPM" class="headerlink" title="NPM"></a>NPM</h1><h2 id="1-NPM-查询指定包的可用版本"><a href="#1-NPM-查询指定包的可用版本" class="headerlink" title="1.    NPM 查询指定包的可用版本"></a>1.    NPM 查询指定包的可用版本</h2><ul>
+<li><code>npm view &lt;package&gt; versions</code></li>
+</ul>
+<h2 id="2-NPM-安装指定版本的包"><a href="#2-NPM-安装指定版本的包" class="headerlink" title="2.    NPM 安装指定版本的包"></a>2.    NPM 安装指定版本的包</h2><ul>
+<li><code>npm i &lt;package&gt;@&lt;version&gt;</code></li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/reduce/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/reduce/" class="post-title-link" itemprop="url">reduce</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:35:23" itemprop="dateCreated datePublished" datetime="2019-11-01T14:35:23+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="reduce"><a href="#reduce" class="headerlink" title="reduce"></a>reduce</h1><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br><span class="line">15</span><br><span class="line">16</span><br><span class="line">17</span><br><span class="line">18</span><br><span class="line">19</span><br><span class="line">20</span><br><span class="line">21</span><br><span class="line">22</span><br><span class="line">23</span><br><span class="line">24</span><br><span class="line">25</span><br><span class="line">26</span><br><span class="line">27</span><br><span class="line">28</span><br><span class="line">29</span><br><span class="line">30</span><br><span class="line">31</span><br><span class="line">32</span><br><span class="line">33</span><br><span class="line">34</span><br><span class="line">35</span><br><span class="line">36</span><br><span class="line">37</span><br><span class="line">38</span><br><span class="line">39</span><br><span class="line">40</span><br><span class="line">41</span><br><span class="line">42</span><br><span class="line">43</span><br><span class="line">44</span><br><span class="line">45</span><br><span class="line">46</span><br><span class="line">47</span><br><span class="line">48</span><br><span class="line">49</span><br><span class="line">50</span><br><span class="line">51</span><br><span class="line">52</span><br><span class="line">53</span><br><span class="line">54</span><br><span class="line">55</span><br><span class="line">56</span><br><span class="line">57</span><br><span class="line">58</span><br><span class="line">59</span><br><span class="line">60</span><br><span class="line">61</span><br><span class="line">62</span><br><span class="line">63</span><br><span class="line">64</span><br><span class="line">65</span><br><span class="line">66</span><br><span class="line">67</span><br><span class="line">68</span><br><span class="line">69</span><br><span class="line">70</span><br><span class="line">71</span><br><span class="line">72</span><br><span class="line">73</span><br><span class="line">74</span><br><span class="line">75</span><br></pre></td><td class="code"><pre><span class="line"><span class="comment">// demo1</span></span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> arr = [<span class="number">1</span>, <span class="number">2</span>, <span class="number">3</span>, <span class="number">4</span>, <span class="number">5</span>]</span><br><span class="line"><span class="keyword">var</span> sum = arr.reduce(<span class="function"><span class="keyword">function</span>(<span class="params">prev, cur, index, arr</span>)</span>&#123;</span><br><span class="line">  <span class="keyword">return</span> prev + cur</span><br><span class="line">&#125;)</span><br><span class="line"><span class="comment">// console.log(sum);    //15</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">//当reduce方法没有传入第二个参数(即intialValue)时, 数组的第0项会充当该参数参与运算</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//第一次参与运算的prev的值, 取自reduce方法的第二个参数(initialValue)或者数组的第0项</span></span><br><span class="line"><span class="comment">//之后参与运算的prev, 取自上次运算后return的值</span></span><br><span class="line"></span><br><span class="line"><span class="comment">//注: prev和cur的数据类型可能不一样, cur代表的是数组中的当前项</span></span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// demo2</span></span><br><span class="line"><span class="keyword">var</span> result = [</span><br><span class="line">  &#123;</span><br><span class="line">    subject: <span class="string">'math'</span>,</span><br><span class="line">    score: <span class="number">88</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    subject: <span class="string">'chinese'</span>,</span><br><span class="line">    score: <span class="number">95</span></span><br><span class="line">  &#125;,</span><br><span class="line">  &#123;</span><br><span class="line">    subject: <span class="string">'english'</span>,</span><br><span class="line">    score: <span class="number">80</span></span><br><span class="line">  &#125;</span><br><span class="line">]</span><br><span class="line"></span><br><span class="line"><span class="keyword">var</span> sum = result.reduce(<span class="function">(<span class="params">prev, cur</span>) =&gt;</span> &#123;</span><br><span class="line">  <span class="comment">// console.log(prev, cur);</span></span><br><span class="line">  <span class="keyword">return</span> prev + cur.score</span><br><span class="line">&#125;, <span class="number">0</span>)</span><br><span class="line"></span><br><span class="line"><span class="comment">// 此处需要传入第二个参数作为初始值, 这里的0同时也规定了prev的数据类型, 第一次参与运算的prev就是这里定义的第二个参数,</span></span><br><span class="line"><span class="comment">// 二cur则为数组的第0项</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 若不传入initialValue参数, 则数组的第0项(即: &#123;subject: 'math', score: 88&#125;)充当了第一次运算的prev, 此时再</span></span><br><span class="line"><span class="comment">// 进行累加运算就会出错</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// console.log(sum);</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 求出一串字符串中每个字符出现的次数</span></span><br><span class="line"><span class="keyword">var</span> str = <span class="string">'abcdaabc'</span></span><br><span class="line"><span class="keyword">var</span> res = str.split(<span class="string">''</span>).reduce(<span class="function">(<span class="params">prev, cur</span>) =&gt;</span> &#123;</span><br><span class="line">  prev[cur] ? prev[cur] ++ : prev[cur] = <span class="number">1</span></span><br><span class="line">  <span class="keyword">return</span> prev</span><br><span class="line">&#125;, &#123;&#125;)</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(res);</span><br><span class="line"></span><br><span class="line"></span><br><span class="line"><span class="comment">// 将一种形式的数组以一种规则转换成另一个数组</span></span><br><span class="line"></span><br><span class="line">res = [<span class="number">1</span>, <span class="number">2</span>].reduce(<span class="function">(<span class="params">prev, cur</span>) =&gt;</span> &#123;</span><br><span class="line">  prev.push(&#123;</span><br><span class="line">    age: cur + <span class="number">1</span></span><br><span class="line">  &#125;)</span><br><span class="line">  <span class="keyword">return</span> prev</span><br><span class="line">&#125;, [])</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(res);   <span class="comment">//[ &#123; age: 2 &#125;, &#123; age: 3 &#125; ]</span></span><br><span class="line"></span><br><span class="line"><span class="comment">// 将一种形式的数组以一种规则转换成一个对象</span></span><br><span class="line"></span><br><span class="line">res = [<span class="number">1</span>, <span class="number">2</span>].reduce(<span class="function">(<span class="params">prev, cur</span>) =&gt;</span> &#123;</span><br><span class="line">  prev[<span class="string">'age'</span> + cur] = cur</span><br><span class="line">  <span class="keyword">return</span> prev</span><br><span class="line">&#125;, &#123;&#125;)</span><br><span class="line"></span><br><span class="line"><span class="built_in">console</span>.log(res);   <span class="comment">//&#123; age1: 1, age2: 2 &#125;</span></span><br></pre></td></tr></table></figure>
+
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+        
+  
+  
+  <article itemscope itemtype="http://schema.org/Article" class="post-block home" lang="en">
+    <link itemprop="mainEntityOfPage" href="http://yoursite.com/2019/11/01/JS/">
+
+    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
+      <meta itemprop="image" content="/images/avatar.gif">
+      <meta itemprop="name" content="John Doe">
+      <meta itemprop="description" content="">
+    </span>
+
+    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
+      <meta itemprop="name" content="Hexo">
+    </span>
+      <header class="post-header">
+        <h1 class="post-title" itemprop="name headline">
+          
+            <a href="/2019/11/01/JS/" class="post-title-link" itemprop="url">JS</a>
+        </h1>
+
+        <div class="post-meta">
+            <span class="post-meta-item">
+              <span class="post-meta-item-icon">
+                <i class="fa fa-calendar-o"></i>
+              </span>
+              <span class="post-meta-item-text">Posted on</span>
+
+              <time title="Created: 2019-11-01 14:35:17" itemprop="dateCreated datePublished" datetime="2019-11-01T14:35:17+08:00">2019-11-01</time>
+            </span>
+
+          
+
+        </div>
+      </header>
+
+    
+    
+    
+    <div class="post-body" itemprop="articleBody">
+
+      
+          <h1 id="JS"><a href="#JS" class="headerlink" title="JS"></a>JS</h1><h2 id="1-静态方法和动态方法"><a href="#1-静态方法和动态方法" class="headerlink" title="1.    静态方法和动态方法"></a>1.    静态方法和动态方法</h2><ul>
+<li>静态方法: 供类调用的方法. 如Math.random()中的random()即为静态方法, 供random()调用</li>
+<li>动态方法: 供实例调用的方法</li>
+<li>此为学习mongoose时了解到的知识点</li>
+</ul>
+<h2 id="2-结合VUE实现多选的一种方式"><a href="#2-结合VUE实现多选的一种方式" class="headerlink" title="2.    结合VUE实现多选的一种方式"></a>2.    结合VUE实现多选的一种方式</h2><figure class="highlight html"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br></pre></td><td class="code"><pre><span class="line"><span class="tag">&lt;<span class="name">ul</span> <span class="attr">class</span>=<span class="string">"sec-wrapper"</span>&gt;</span></span><br><span class="line">  <span class="tag">&lt;<span class="name">li</span> <span class="attr">v-for</span>=<span class="string">"(item, index) in group.options"</span> <span class="attr">:key</span>=<span class="string">"index"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;<span class="name">label</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"rect-icon"</span> <span class="attr">:class</span>=<span class="string">"&#123;selected: item.__checked&#125;"</span> @<span class="attr">click.stop</span>=<span class="string">"_selectOrCancelOne(item, index, gIndex)"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line">      <span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">v-model</span>=<span class="string">"selectedMulti"</span> <span class="attr">:value</span>=<span class="string">"item"</span>&gt;</span></span><br><span class="line">    <span class="tag">&lt;/<span class="name">label</span>&gt;</span></span><br><span class="line">    &#123;&#123;item.label&#125;&#125;</span><br><span class="line">  <span class="tag">&lt;/<span class="name">li</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;/<span class="name">ul</span>&gt;</span></span><br><span class="line">加注:</span><br><span class="line"><span class="tag">&lt;<span class="name">span</span> <span class="attr">class</span>=<span class="string">"rect-icon"</span> <span class="attr">:class</span>=<span class="string">"&#123;selected: selectedVal.includes(item.value)&#125;"</span>&gt;</span><span class="tag">&lt;/<span class="name">span</span>&gt;</span></span><br><span class="line"><span class="tag">&lt;<span class="name">input</span> <span class="attr">type</span>=<span class="string">"checkbox"</span> <span class="attr">v-model</span>=<span class="string">"selectedVal"</span> <span class="attr">:value</span>=<span class="string">"item.value"</span> @<span class="attr">click.stop</span>=<span class="string">"_selectOrCancelOne(item, index, gIndex)"</span>&gt;</span></span><br></pre></td></tr></table></figure>
+<ul>
+<li>注:  给已有数据动态添加一个checked属性(<code>:class=&quot;{selected: item.__checked}&quot;</code>),  点击的时候改变改对象的checked的值(<strong>此方法不推荐了</strong>)</li>
+<li><strong>加注</strong>:  以上实现方式中selectedMulti中绑定的是一个包含对象的数组, :value绑定的item为对象,   可改selectedMulti为只包含值的数组, :value项传入具体值, 这样一来, span标签的selected类名就可通过以上方式进行判断了</li>
+</ul>
+<h2 id="3-给非表单元素添加blur事件"><a href="#3-给非表单元素添加blur事件" class="headerlink" title="3.    给非表单元素添加blur事件"></a>3.    给非表单元素添加blur事件</h2><ul>
+<li>给目标元素(非表单元素)添加tabindex属性(为避免影响其他表单元素, 一般设为<strong>tabindex=-1</strong>), 可理解为表单元素默认拥有tabindex属性, focus事件应该与之相同</li>
+</ul>
+
+      
+    </div>
+
+    
+    
+    
+      <footer class="post-footer">
+        <div class="post-eof"></div>
+      </footer>
+  </article>
+  
+  
+  
+
+  </div>
+
+  
+  <nav class="pagination">
+    <span class="page-number current">1</span><a class="page-number" href="/page/2/">2</a><a class="extend next" rel="next" href="/page/2/"><i class="fa fa-angle-right" aria-label="Next page"></i></a>
+  </nav>
+
+
+
+          </div>
+          
+
+        </div>
+          
+  
+  <div class="toggle sidebar-toggle">
+    <span class="toggle-line toggle-line-first"></span>
+    <span class="toggle-line toggle-line-middle"></span>
+    <span class="toggle-line toggle-line-last"></span>
+  </div>
+
+  <aside class="sidebar">
+    <div class="sidebar-inner">
+
+      <ul class="sidebar-nav motion-element">
+        <li class="sidebar-nav-toc">
+          Table of Contents
+        </li>
+        <li class="sidebar-nav-overview">
+          Overview
+        </li>
+      </ul>
+
+      <!--noindex-->
+      <div class="post-toc-wrap sidebar-panel">
+      </div>
+      <!--/noindex-->
+
+      <div class="site-overview-wrap sidebar-panel">
+        <div class="site-author motion-element" itemprop="author" itemscope itemtype="http://schema.org/Person">
+  <img class="site-author-image" itemprop="image" alt="John Doe"
+    src="/images/avatar.gif">
+  <p class="site-author-name" itemprop="name">John Doe</p>
+  <div class="site-description" itemprop="description"></div>
+</div>
+<div class="site-state-wrap motion-element">
+  <nav class="site-state">
+      <div class="site-state-item site-state-posts">
+          <a href="/archives/">
+        
+          <span class="site-state-item-count">12</span>
+          <span class="site-state-item-name">posts</span>
+        </a>
+      </div>
+  </nav>
+</div>
+
+
+
+      </div>
+        <div class="back-to-top motion-element">
+          <i class="fa fa-arrow-up"></i>
+          <span>0%</span>
+        </div>
+
+    </div>
+  </aside>
+  <div id="sidebar-dimmer"></div>
+
+
+      </div>
+    </main>
+
+    <footer class="footer">
+      <div class="footer-inner">
+        
+
+<div class="copyright">
+  
+  &copy; 
+  <span itemprop="copyrightYear">2019</span>
+  <span class="with-love">
+    <i class="fa fa-user"></i>
+  </span>
+  <span class="author" itemprop="copyrightHolder">John Doe</span>
+</div>
+  <div class="powered-by">Powered by <a href="https://hexo.io/" class="theme-link" rel="noopener" target="_blank">Hexo</a> v4.0.0
+  </div>
+  <span class="post-meta-divider">|</span>
+  <div class="theme-info">Theme – <a href="https://theme-next.org/" class="theme-link" rel="noopener" target="_blank">NexT.Gemini</a> v7.4.3
+  </div>
+
+        
+
+
+
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </footer>
+  </div>
+
+  
+  <script src="/lib/anime.min.js"></script>
+  <script src="/lib/velocity/velocity.min.js"></script>
+  <script src="/lib/velocity/velocity.ui.min.js"></script>
+<script src="/js/utils.js"></script><script src="/js/motion.js"></script>
+<script src="/js/schemes/pisces.js"></script>
+<script src="/js/next-boot.js"></script>
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+
+  
+
+</body>
+</html>
